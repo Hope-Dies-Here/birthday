@@ -8,6 +8,73 @@ body {
 	transition:background-color linear 5s;
 	overflow-x:hidden;
 }
+.message{
+  position: ;
+}
+.imageo{
+  position: absolute;
+  left: 50%;
+  right: 40%;
+  transform: translateX(-50%);
+  bottom: 1%;
+  width: fit-content;
+  height: fit-content;
+}
+.left-right{
+  position: absolute;
+  left: 10;
+  top: 20%;
+  width: fit-content;
+  height: fit-content;
+}
+.right-right{
+  position: absolute;
+  right: 30;
+  top: 27%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.again{
+  position: absolute;
+  top: 20%;
+  right: 30!important;
+  transform: translateX(67vw);
+}
+.again-bot{
+  position: absolute;
+  transform: translateX(67vw);
+  top: 30%;
+  right: 30!important;
+  
+}
+@keyframes scaleIt {
+  0%{
+    opacity: 0
+  }
+  50%{
+    scale: .75
+  }
+  100%{
+    scale: 1;
+  }
+}
+.left-esua, .right-esua{
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid white;
+  opacity: .9;
+  border-radius: 50%;
+}
+
+.esua{
+  width: 10rem;
+  height: 10rem;
+  border: 2px solid gold;
+  opacity: 1;
+  border-radius: 1rem;
+  animation: scaleIt 1s ease;
+}
 .container {
 	display: none;
 }
